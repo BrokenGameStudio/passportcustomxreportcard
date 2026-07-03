@@ -53,13 +53,4 @@ Le `.csproj` référence `Assembly-CSharp.dll`, `PhotonRealtime.dll` et `PhotonU
    ```
 3. Lancer le jeu — le log `[passportcustom] Initialisation du bridge de pagination...` doit apparaître dans la console BepInEx
 
-## # État actuel / TODO
 
-- [ ] Vérifier la compatibilité de `FindTemplateButton()` à chaque mise à jour de PEAK (le chemin natif peut changer)
-- [ ] `ListPings()` n'affiche que le ping local — Photon n'expose pas directement le ping des autres clients
-- [ ] Étendre les commandes DevConsole si besoin (téléportation, spawn, etc.)
-- [ ] Ajouter une persistance des bans (actuellement uniquement en mémoire pour la session)
-
-## # Licence
-
-Projet personnel / hobby — usage libre pour la communauté PEAK.
